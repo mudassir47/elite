@@ -81,7 +81,7 @@ const Data = () => {
 
   return (
     <div className="rounded-md max-w-sm w-full mx-auto bg-white">
-      <div className="flex-1 space-y-4 py-1">
+      <div className="flex-1 space-y-4 py-1 bg-white">
         <div className="sm:block">
           <div className="space-y-1 px-5 pt-2 pb-3">
             {navigation.map((item) => (

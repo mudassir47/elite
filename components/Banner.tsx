@@ -11,10 +11,10 @@ const Banner = () => {
     }
 
     return (
-        <section className="relative overflow-hidden bg-gradient-to-br from-blue-100 to-lightblue-100 py-20 sm:py-32">
-            <div className="absolute inset-0 bg-[url('/placeholder.svg?height=600&width=1200')] bg-cover bg-center opacity-5" />
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <motion.div 
+        <section className="relative overflow-hidden bg-gradient-to-br from-blue-100 to-lightblue-100 py-20 sm:py-32 z-0">
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=600&width=1200')] bg-cover bg-center opacity-5" />
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+           <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
