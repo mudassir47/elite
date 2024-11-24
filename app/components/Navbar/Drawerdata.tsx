@@ -13,6 +13,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   { name: 'Home', href: '/', current: true },
   { name: 'About', href: '/about', current: false },
+  { name: 'Visit', href: '/visit', current: false },
   { name: 'Teams', href: '/team', current: false },
   { name: 'Certificate', href: '/verifyCertificate', current: false },
   { name: 'Gallery', href: '/gallery', current: false }
@@ -79,7 +80,7 @@ const Data = () => {
   };
 
   return (
-    <div className="rounded-md max-w-sm w-full mx-auto">
+    <div className="rounded-md max-w-sm w-full mx-auto bg-white">
       <div className="flex-1 space-y-4 py-1">
         <div className="sm:block">
           <div className="space-y-1 px-5 pt-2 pb-3">

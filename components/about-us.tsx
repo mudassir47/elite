@@ -12,9 +12,9 @@ export function AboutUsComponent() {
       <div className="container mx-auto px-4 py-16">
         <Card className="bg-white shadow-xl">
           <CardHeader className="text-center pb-2">
-            <CardTitle className="text-5xl font-bold text-[#0073FE]">The Elite Club</CardTitle>
+            <CardTitle className="text-3xl font-bold text-[#0073FE]">The Elite Club</CardTitle>
             <CardDescription className="text-xl text-blue-600 mt-2">
-              Anjuman-I-Islam Kalsekar Technical Campus
+            by department of Electronics and Computer Science Engineering AIKTC
             </CardDescription>
           </CardHeader>
           <Separator className="my-4 mx-auto w-1/2" />

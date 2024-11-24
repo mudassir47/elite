@@ -256,8 +256,8 @@ const FormPage = () => {
       ) : (
         <div className="flex flex-col items-center justify-center h-screen">
           <div className="bg-gray-800 text-black p-6 rounded-lg shadow-lg text-center">
-            <h1 className="text-xl font-bold text-red-900">Login or Register First</h1>
-            <p className="mt-2 text-red-200">You must be logged in to fill out the team details.</p>
+            <h1 className="text-xl font-bold text-red-900 text-white">Login or Register First</h1>
+            <p className="mt-2 text-red-200 text-white">You must be logged in to fill out the team details.</p>
             <button
               onClick={handleOpenModal}
               className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200"

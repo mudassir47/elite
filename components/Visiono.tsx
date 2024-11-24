@@ -12,10 +12,10 @@ const VisionMission = () => {
   }
 
   return (
-    <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
+    <section className="py-24 bg-gradient-to-b from-lightblue to-white">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-4xl font-bold text-center mb-16 text-blue-900"
+          className="text-4xl font-bold text-center mb-16 text-darkblue"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -28,10 +28,10 @@ const VisionMission = () => {
             <Card className="h-full bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
                 <div className="flex items-center mb-6">
-                  <div className="bg-blue-100 p-3 rounded-full mr-4">
-                    <Lightbulb className="w-8 h-8 text-blue-600" />
+                  <div className="bg-lightblue p-3 rounded-full mr-4">
+                    <Lightbulb className="w-8 h-8 text-darkblue" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-blue-900">Our Vision</h3>
+                  <h3 className="text-2xl font-semibold text-darkblue">Our Vision</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   To be the premier hub for innovation in electronics and computer science, 
@@ -46,10 +46,10 @@ const VisionMission = () => {
             <Card className="h-full bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
                 <div className="flex items-center mb-6">
-                  <div className="bg-blue-100 p-3 rounded-full mr-4">
-                    <Target className="w-8 h-8 text-blue-600" />
+                  <div className="bg-lightblue p-3 rounded-full mr-4">
+                    <Target className="w-8 h-8 text-darkblue" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-blue-900">Our Mission</h3>
+                  <h3 className="text-2xl font-semibold text-darkblue">Our Mission</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   To empower and nurture talented individuals in the fields of electronics 
@@ -68,17 +68,17 @@ const VisionMission = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <Card className="bg-blue-600 text-white inline-block">
+          <Card className="bg-darkblue text-white inline-block">
             <CardContent className="p-8">
               <div className="flex items-center justify-center mb-4">
                 <Users className="w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-semibold text-black"> Join Our Community</h3>
+                <h3 className="text-2xl font-semibold "> Join Our Community</h3>
               </div>
-              <p className="max-w-2xl mx-auto mb-6 text-black">
+              <p className="max-w-2xl mx-auto mb-6 ">
                 Be part of a dynamic group of tech enthusiasts and innovators. 
-                Together, we willll push the boundaries of what possible in electronics and computer science.
+                Together, we will push the boundaries of what’s possible in electronics and computer science.
               </p>
-              <button className="bg-blue  text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition-colors duration-300">
+              <button className=" bg-white text-darkblue px-6 py-2 rounded-full font-semibold hover:bg-lightblue-100 transition-colors duration-300">
                 Become a Member
               </button>
             </CardContent>
